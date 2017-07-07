@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+    padding:0;
+   	position: absolute;
+   	top: 0;
+    bottom: 0;
+    right: 0;
+	left: 0;
+	display: block;
+	overflow: auto;
+
+}
+
+
+#bar {
+	background-color: rgb(51, 51, 51);
+	margin: 0 auto;
+	position: relative;
+	height: 20vh;
+	overflow: hidden;
+    
+}
+
+
+#backgroundMain {
+	background: url("../namehere.com/backgroundMainImage.jpg");
+	/*image se place tout seule,en etandant sur la longeur*/
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	/*les divs se place depandant de leur position dans le fichier html*/
+	overflow: hidden;
+	height: 80vh;
+    
+}
+
+#background2 {
+	background: url("../namehere.com/background2.jpg");
+	text-align: center;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+	
+	height: 130%;
+	overflow: hidden;
+    
+}
+
+#box1 {
+	background: #ffffff;
+	width: 40%;
+    position: relative;
+    left: 30%;
+    right: 30%;
+    top: 20%;
+    height: 53%;
+
+}
+
+.paragraph {
+
+}
+
+#background3 {
+	text-align: left;
+	background: rgb(51, 51, 51);
+	margin: 0 auto;
+	position: relative;
+	
+	height: : 60%;
+	overflow: hidden;
+    
+}
+
